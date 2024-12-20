@@ -1,0 +1,14 @@
+#about {
+    padding: 2rem 0;
+    text-align: center;
+    background: #eaeaea;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1rem;
+}

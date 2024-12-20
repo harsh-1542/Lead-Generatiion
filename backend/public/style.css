@@ -1,0 +1,13 @@
+.success-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success-container h1,p,a{
+    display: block;
+}
+
+p{
+    font-size: larger;
+}

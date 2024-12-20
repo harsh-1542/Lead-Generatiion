@@ -1,0 +1,24 @@
+#faqs {
+    padding: 2rem 0;
+    text-align: center;
+    background: #eaeaea;
+   
+}
+
+#faqs h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+    font-size: 1rem;
+}
