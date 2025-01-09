@@ -1,16 +1,12 @@
-# Netlify configuration file
-
-# Build settings
 [build]
-  command = "npm run build"  # Replace with your build command if different
-  publish = "dist"           # Replace with your build output directory (e.g., build, dist, public)
+  command = "npm run build"
+  publish = "dist"
 
-# Redirects (for Single Page Applications like React)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Environment Variables (optional)
-[build.environment]
-  NODE_VERSION = "18"         # Specify Node.js version if required
+[dev]
+  command = "vite"
+  port = 8888
