@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000', // Backend server URL
+        target: 'https://lead-generatiion.onrender.com', // Backend server URL
         changeOrigin: true,
         secure: false, // Use this if you're dealing with HTTPS issues
         rewrite: (path) => path.replace(/^\/api/, ''),
